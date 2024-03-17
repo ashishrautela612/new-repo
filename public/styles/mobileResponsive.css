@@ -1,0 +1,206 @@
+@media (max-width:440px){
+    .header{
+        display: none;
+    }
+    .homeSection{
+        padding: 4% 5%;
+    }
+    .homeSectionArrows{
+        display: none;
+    }
+    .homeSectionHeading{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .homeSectionBtnContainer {
+        padding-top: 3%;
+        text-align: center;
+    }
+    .aboutCoronaVirusContainer{
+        top: 14px;
+    }
+    .aboutCorona{
+        flex-direction: column;
+    }
+    .aboutContent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .aboutbottomBar{
+        width: 96%;
+    }
+    .coronaImageContainerMobile{
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    .coronaDescription{
+        text-align: left;
+    }
+    .readMoreAboutCoronaBtn{
+        width: 33%;
+        margin: auto;
+        font-size: 12px;
+        padding: 2% 3%;
+    }
+    .coronaImage{
+        display: none;
+    }
+    .whatIsCorona{
+        padding: 0;
+        padding-top: 30px;
+        width: 84%;
+        margin: auto;
+    }
+    .coronaSymptoms{
+        flex-direction: column;
+    }
+    .coronaDescription{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .aboutSectionHeading{
+        font-size: 2rem;
+    }
+    .coronaSymtomsFigure {
+        display: none;
+    }
+    .coronaSymtomsFigureMobile {
+        display: block;
+        width: 100%;
+        padding-top: 4%;
+    }
+    .coronaDescription > p{
+        width: 100%;
+    }
+    .coronaDescription > button{
+        width: 33%;
+        margin: auto;
+        font-size: 12px;
+        padding: 2% 3%;
+    }
+    .preventionSection{
+        width: 84%;
+        margin: auto;
+        padding-top: 10%;
+    }
+    .heading{
+        font-size: 2rem;
+        line-height: 1;
+        padding-bottom: 4%;
+    }
+
+    .preventionSection{
+        text-align: left;
+    }
+    .preventionsContainer{
+        padding: 0%;
+        padding-top: 5%;
+    }
+    .preventions{
+        background: none;
+    }
+    .preventionsCards{
+        flex-direction: column;
+        padding:0;
+        gap: 25px;
+    }
+    .preventionCard{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap:10px ;
+    }
+    .preventionDesc{
+        text-align: left;
+    }
+    .preventionReadMoreBtn{
+        width: 33%;
+        margin: auto;
+        font-size: 12px;
+        padding: 2% 3%;
+    }
+    .preventionArrows{
+        display: none;
+    }
+    .cases{
+        width: 84%;
+        margin: auto;
+        padding-top: 10%;
+    }
+    .preventionDesc{
+        padding: 0;
+    }
+    .casescardsContainer{
+        padding: 0%;
+    }
+    .casesCards{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .caseCardContainer{
+        padding-bottom: 12%;
+        width: 100%;
+    }
+    .doctorAdvice{
+        width: 84%;
+        margin: auto;
+        padding-top: 12%;
+    }
+    .advices{
+        padding: 0;
+        background: none;
+    }
+    .advicesContainer{
+        flex-direction: column;
+        padding-top: 12%;
+        gap: 70px;
+    }
+    .adviceCard{
+        padding: 0;
+        width: 100%;
+    }
+    .doctorsDetails{
+        padding-top: 13%;
+    }
+    .preventionDesc{
+        width: 95%;
+        margin: auto;
+        text-align: left;
+    }
+    .updates{
+        padding-top: 10%;
+        background: none;
+    }
+    .footerContainer{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5%;
+    }
+    .footer{
+        width: 84%;
+        margin: auto;
+        flex-direction: column;
+        gap: 24px;
+        padding: 6% 0;
+    }
+    .colOne,.colTwo,.colThree,.colFour{
+        width: 100%;
+    }
+    .colOne{
+        gap: 5px;
+    }
+    .oneTwo{
+        text-align: left;
+    }
+    .footerCol > h2{
+        padding-bottom: 2%;
+    }
+}

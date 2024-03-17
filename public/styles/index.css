@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  /* border: 1px solid black; */
+}
+button{
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+.fullWidth {
+  width: 100%;
+}
+.dFlexCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.spaceBt{
+  justify-content: space-between;
+}
+.header {
+    display: flex;
+    width: 100%;
+}
+.sec {
+    flex: 1;
+}
+.header {
+    position: absolute;
+}
+.navbar {
+    background-color: #ed242e;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 23px;
+    vertical-align: middle;
+font-size: 13px;
+}
+.one i {
+    color: #fff;
+    padding: 20px;
+    font-size: 15px;
+    padding-top: 26px;
+}
+.corona{
+    font-size: 14px !important;
+    font-weight: 500;
+}
+.corona::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 100%;
+    height: 160%;
+    background-image: url(../images/logo.png);
+    background-size: 92px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user{
+    background-color: rgba(0, 19, 43, 255);
+}
+.dFlex {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.lineHeightOne{
+    line-height: 1;
+}
+.mainContainer {
+  background-color: rgba(254, 254, 253, 255);
+}
+.homeSection {
+  /* position: relative; */
+  background-image: url(../images/landingPageBg.png);
+  padding-top: 13%;
+  padding-left: 20%;
+  padding-bottom: 21%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.homeSectionArrows{
+  position: absolute;
+    background-color: #ed242e;
+    height: 80px;
+    width: 50px;
+}
+.leftArrow{
+  border-radius: 0px 71px 76px 0px;
+    left: 0;
+    top: 34%;
+}
+.leftArrow > i {
+  position: absolute;
+  font-size: 35px;
+  top: 23%;
+}
+.rightArrow{
+  right: 0;
+  top: 34%;
+  border-radius: 71px 0px 0px 76px;
+}
+.rightArrow > i{
+  position: absolute;
+  top: 26%;
+  right: 6%;
+  font-size: 35px;
+
+}
+.homeSectionHeading {
+  color: white;
+  font-size: 57px;
+  line-height: 1;
+}
+.homeSectionBtnContainer {
+  padding-top: 5%;
+}
+.readMoreBtn {
+  background-color: #ed242e;
+  color: white;
+  border: none;
+  padding: 0.8% 4.5%;
+  margin-right: 10px;
+  font-size: 11px;
+}
+.aboutUsBtn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 0.8% 4.5%;
+  font-size: 11px;
+}
+.aboutCoronaVirusContainer {
+  width: 84%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 255);
+  border-radius: 60px;
+  box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
+  position: relative;
+  top: -135px;
+}
+.aboutCorona {
+  gap: 3%;
+}
+.aboutContent {
+  width: 59%;
+  padding-top: 9%;
+  padding-left: 5%;
+  padding-bottom: 8%;
+}
+.coronaImage {
+  width: 27%;
+  padding-top: 5%;
+}
+.coronaImageContainer {
+}
+.coronaImageContainerMobile{
+  display: none;
+}
+.aboutSectionHeading {
+  font-size: 30px;
+}
+.aboutbottomBar {
+  width: 60px;
+  height: 6px;
+  background-color: #ed242e;
+  border-radius: 3px;
+}
+.aboutCoronaDescription {
+  font-size: 12px;
+  padding-top: 5%;
+  padding-bottom: 6%;
+  color: #111111;
+  font-weight: 500;
+}
+.readMoreAboutCoronaBtn {
+    padding: 2.5% 10%;
+    background-color: rgba(5, 37, 77, 255);
+    color: white;
+    border: none;
+}
+.whatIsCorona{
+padding: 0% 13% 0% 18%
+}
+.coronaSymptoms{
+    justify-content: space-between;
+    gap: 6%;
+}
+.coronaSymtomsFigure{
+    width: 50%;
+}
+.coronaSymtomsFigureMobile{
+  display: none;
+}
+.coronaDescription{
+    width: 48%;
+  font-size: 12px;
+  color: #111111;
+  font-weight: 500;
+  padding: 4% 0%;
+}
+
+.coronaDescription > p{
+    width: 81%;
+    padding: 7% 0%;
+}
+.coronaDescription > button {
+  padding: 15px 59px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+/* .coronaDescription > h1{
+    font-size: 35px;
+} */
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.paddingTop{
+    padding-top: 6%;
+}
+.preventionDesc{
+  font-size: 12px;
+  color: #111111;
+  font-weight: 500;
+  text-align: center;
+  line-height: 2;
+}
+.preventionsContainer{
+    padding: 2% 4%;
+}
+.preventions{
+    background-image: url(../images/prevention.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.preventionsCards{
+    padding: 11% 0%;
+    justify-content: center;
+    gap: 2%;
+}
+.preventionDetails{
+    background-color: rgba(254,246,252,255);
+    border-radius: 16px;
+    padding: 30px 20px 20px 20px;
+    gap: 3px;
+}
+.preventionCard{
+    width: 23%;
+    gap: 32px;
+    transition: all 0.8s ease-in-out;
+}
+.preventionCard:hover{
+  transform:translateY(-20px);
+}
+.para{
+    font-size: 12px;
+}
+.prevention{
+    font-weight:bold;
+    font-size: 13px;
+}
+.preventionImageContainer{
+    height: 90px;
+    width: 75px;
+}
+.preventionReadMoreBtn{
+  padding: 3.5% 12%;
+  border: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 800;
+  color: white;
+  background-color: rgba(5,37,77,255);
+  transition: all 0.55s;
+}
+.preventionReadMoreBtn:hover{
+  background-color: #ed242e;
+  border-radius: 15px;
+  transform: scale(1.1);
+  
+}
+ /* #secondeReadMoreBtn{
+  background-color: #ed242e;
+ } */
+
+ .preventionArrows{
+  position: absolute;
+  bottom: 3%;
+  left: 44%;
+ }
+ .preventionArrow{
+  height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255,255,255,255);
+  box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
+  font-size: 16px;
+  transition: all 0.55s;
+}
+.preventionArrow:hover{
+  background-color: #ed242e;
+}
+.descPadding{
+  padding: 1% 26%;
+}
+.imageContainer{
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  bottom: 86%;
+  left: 39%;
+  /* border-radius: 50%; */
+  /* border: none; */
+}
+.imageContainer > img{
+  border-radius: 50%;
+  box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
+}
+
+.casescardsContainer{
+  padding: 2% 4%;
+  background-image: url(../images/cononaBg.png);
+  background-repeat: no-repeat;
+  background-position: left 15% top 0%;
+    background-size: 7% 13%;
+}
+.caseDescContainer{
+  padding-top: 6%;
+  text-align: center;
+}
+.caseCardImageContainer{
+  position: relative;
+}
+.caseDescContainer > h2{
+  font-size: 20px;
+}
+.caseCardContainer{
+  position: relative;
+  width: 32%;
+
+  padding: 1.5% 1.5%;
+  padding-bottom: 4%;
+
+  background-color: rgba(254,254,253,255);
+box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
+
+}
+.coronaIcon{
+  height: 63px;
+  width: 63px;
+  position: absolute;
+  bottom: -6%;
+  left: 40%;
+}
+.cardReadMoreBtn{
+  position: absolute;
+    left: 36%;
+    top: 40%;
+    border: none;
+    padding: 2% 7%;
+    font-size: 10px;
+    background-color: #ed242e;
+    color: white;
+    font-weight: 500;
+}
+.adviceCard{
+background-color: rgba(254,254,253,255);
+box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
+border-radius: 10px;
+width: 49%;
+padding: 50px 30px 27px 30px;
+position: relative;
+}
+.advices{
+  padding: 5% 16%;
+  background-image: url(../images/cononaBg.png);
+  background-repeat: no-repeat;
+  background-position: top 37% right 10%;
+  background-size: 6% 23%;
+}
+.upperCase{
+  text-transform: uppercase;
+}
+.doctorsDetails{
+  gap: 7px;
+  padding-top: 3%;
+}
+.commaContainer{
+  font-size: 26px;
+}
+
+.updates{
+  background-image: url(../images/cononaBg.png);
+  background-repeat: no-repeat;
+  background-position: left 6% top 2%;
+  background-size: 6% 23%;
+  padding-top: 2%;
+}
+
+.update{
+  background-image: url(../images/updateBg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.formContainer{
+  padding: 5% 4% 3% 4%;
+}
+
+input[type="email"] {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  padding: 1.5% 2%;
+  width: 75%;
+  border-radius: 30px;
+  color: white;
+}
+
+input[type="email"]::placeholder {
+  color: white;
+}
+.formContainer > form{
+  gap: 20px;
+}
+.updateBtn{
+  padding: 1.5% 6%;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(5, 37, 77, 255);
+  color: white;
+  text-transform: uppercase;
+}
+.updateHeading{
+  padding-bottom: 2%;
+}
+
+.footerContainer{
+  background-color:rgba(17,17,17,255)   ;
+  color: white;
+  padding-left: 16%;
+  padding-right: 12%;
+  padding-top: 6%;
+  padding-bottom: 3%;
+}
+
+.footer{
+  padding-bottom: 5%;
+}
+.footerCol{
+  font-size: 12px;
+  /* font-weight: 500; */
+  color: #eaeae0;
+}
+.footerCol > h2{
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 10%;
+
+}
+.colOne{
+width: 15%;
+}
+.colOne > a{
+  color: #eaeae0;
+  
+}
+.colTwo{
+width: 25%;
+}
+ .colTwo > p{
+  line-height: 1.8;
+ }
+.colThree{
+width: 18%;
+}
+.colFour{
+width: 25%;
+}
+.colOne,.colThree{
+display: flex;
+flex-direction: column;
+gap: 13px;
+}
+.colThree i {
+  padding-right: 8px;
+  color: white;
+}
+.copyRight{
+  width: 70%;
+    margin: auto;
+  color: #eaeae0;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid #eaeae0;
+  padding-top: 2%;
+}
